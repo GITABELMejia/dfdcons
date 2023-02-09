@@ -8,6 +8,7 @@ const Contact = () => (
         </header>
         <section>
             <h1 className="text-center">Contacto</h1>
+            <h2>Actualizado desde GITHUB</h2>
         </section>
     </Layout>
 
