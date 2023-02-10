@@ -21,7 +21,7 @@ const Navbar = () => (
                     <span className="navbar-bg navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className="collapse navbar-collapse p-4" id="navbarNav">
                     <div className="mx-auto"></div>
                     <ul className="navbar-nav">
                         <li className="nav-item">
