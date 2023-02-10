@@ -36,6 +36,20 @@ h3 {
  .barra.bg-success{
     background-color: transparent!important;
 } */
+
+/* estilos de la barra de navegacion */
+/* .navbar-collapse{
+    background-color: black!important;
+    opacity: .5;
+} */
+
+@media (max-width: 991px){
+    .navbar-collapse{
+        background-color: black!important;
+        opacity: .5;
+    }
+}
+/* estilo de las cabeceras */
 .header{
     position: relative;
 }
@@ -98,4 +112,24 @@ h3 {
 .sobre-nosotros h3{
     font-size: 1rem;
     font-weight: 700;
+}
+
+
+/* estilos de nuestros trabajos */
+.anuncios .card{
+    margin-bottom: 2rem;
+} 
+/* encuentra */
+.encuentra{
+    background-image:url(/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.encuentra .row{
+    height: 25rem;
+}
+.encuentra h3{
+    font-size: 2.2rem;
+    font-weight: 900;
 }
