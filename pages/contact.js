@@ -9,7 +9,6 @@ const Contact = () => (
         <section>
             <h1 className="text-center">Contacto</h1>
             <h2>Actualizado desde GITHUB</h2>
-            <p> Lorem30</p>
         </section>
     </Layout>
 
