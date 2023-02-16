@@ -31,15 +31,15 @@ const About = () => (
                 <div className="row text-center">
                     <h3>EL EQUIPO</h3>
                     <div className="col-md-4">
-                        <img src="/equipo1.jpg" alt="" className="rounded"/>
+                        <img src="/equipo1.jpg" alt="" className="rounded img-fluid"/>
                         <h4>Primera Foto</h4>
                     </div>
                     <div className="col-md-4">
-                        <img src="/equipo2.jpg" alt="" className="rounded"/>
+                        <img src="/equipo2.jpg" alt="" className="rounded img-fluid"/>
                         <h4>Primera Foto</h4>
                     </div>
                     <div className="col-md-4">
-                        <img src="/equipo3.jpg" alt="" className="rounded"/>
+                        <img src="/equipo3.jpg" alt="" className="rounded img-fluid"/>
                         <h4>Primera Foto</h4>
                     </div>
                 </div>
