@@ -133,3 +133,55 @@ h3 {
     font-size: 2.2rem;
     font-weight: 900;
 }
+
+/* BLOG */
+.entrada h3::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+
+.meta span{
+    color: #e08709;
+}
+
+.btn-success{
+    background-color: #71b100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-success :hover{
+    background-color: #609602;
+}
+
+/* TESTIMONIALES */
+.testimoniales{
+    background-color: #71b100;
+}
+
+.testimoniales .carousel-item{
+    padding-left: 2rem;
+}
+
+.testimoniales .testimonial-texto{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+
+.testimoniales .testimonial-texto::before{
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    font-weight: 900;
+}
+.testimoniales span{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
