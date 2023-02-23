@@ -152,9 +152,11 @@ const Index = () => (
                 </div>
             </div>
         </section>
-        <section className="container mt-5">
+
+        {/* BLOG */}
+        <section className="container mt-5 pb-5">
             <div className="row ">
-                <div className="col-md-8 text-center">
+                <div className="col-md-8">
                     <h2 className="text-center  mb-5">
                         Nuestro Blog
                     </h2>
@@ -165,7 +167,7 @@ const Index = () => (
                         <div className="col-md-7">
                             <h3>Terraza en el techo de tu casa.</h3>
                             <p className="meta">
-                                Escrito el: <spam>20/10/2018</spam> por: <spam>Admin</spam>
+                                Escrito el: <span>20/10/2018</span> por: <span>Admin</span>
                             </p>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, blanditiis? Porro reprehenderit eos officiis mollitia, voluptates cupiditate beatae, excepturi doloremque temporibus illum id sed voluptatem ducimus nulla in quia ab!</p>
                             <a href="/" className="btn btn-success">Leer Más</a>
@@ -178,7 +180,7 @@ const Index = () => (
                         <div className="col-md-7">
                             <h3>Guia para decorar tu casa.</h3>
                             <p className="meta">
-                                Escrito el: <spam>20/10/2018</spam> por: <spam>Admin</spam>
+                                Escrito el: <span>20/10/2018</span> por: <span>Admin</span>
                             </p>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, blanditiis? Porro reprehenderit eos officiis mollitia, voluptates cupiditate beatae, excepturi doloremque temporibus illum id sed voluptatem ducimus nulla in quia ab!</p>
                             <a href="/" className="btn btn-success">Leer Más</a>
@@ -189,6 +191,32 @@ const Index = () => (
                     <h2 className="text-center mb-5">
                         Testimoniales
                     </h2>
+                    <div className="testimoniales p-5">
+                        <div id="testimoniales" className="carousel slide" data-bs-ride="carousel">
+                            <div className="carousel-inner text-light">
+                                <div className="carousel-item active">
+                                    <p className="testimonial-texto">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolore laudantium tenetur eos corporis temporibus quis iste libero eius alias? 
+                                        <span className="d-block text-end mt-4"> - Persona 1</span>
+                                    </p>                                    
+                                </div>
+                                <div className="carousel-item">
+                                    <p className="testimonial-texto">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolore laudantium tenetur eos corporis temporibus quis iste libero eius alias?    
+                                        <span className="d-block text-end mt-4"> - Persona 2</span>
+                                    </p>                                    
+                                </div>
+                                <div className="carousel-item">
+                                    <p className="testimonial-texto">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolore laudantium tenetur eos corporis temporibus quis iste libero eius alias?    
+                                        <span className="d-block text-end mt-4"> - Persona 3</span>
+                                    </p> 
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
