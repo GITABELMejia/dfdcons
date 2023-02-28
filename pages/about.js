@@ -19,11 +19,11 @@ const About = () => (
                 <div className="row text-center">
                     <h2 className="mb-4">SOCIOS FUNDADORES</h2>
                     <div className="col-md-6 mb-5">
-                        <img src="/socio_fundador2.jpg" alt="" className="rounded-circle" />
+                        <img src="/socio_fundador2.jpg" alt="" className="rounded-circle img-fluid" />
                         <h4>Primer Fundador</h4>
                     </div>
                     <div className="col-md-6 mb-5">
-                        <img src="/socio_fundador1.jpg" alt="" className="rounded-circle" />
+                        <img src="/socio_fundador1.jpg" alt="" className="rounded-circle img-fluid" />
                         <h4>Segundo fundador</h4>
                     </div>
 
@@ -32,15 +32,15 @@ const About = () => (
                     <h3>EL EQUIPO</h3>
                     <div className="col-md-4">
                         <img src="/equipo1.jpg" alt="" className="rounded img-fluid"/>
-                        <h4>Primera Foto</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi adipisci pariatur dolorum architecto culpa inventore accusamus atque libero amet enim!</p>
                     </div>
                     <div className="col-md-4">
                         <img src="/equipo2.jpg" alt="" className="rounded img-fluid"/>
-                        <h4>Primera Foto</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi adipisci pariatur dolorum architecto culpa inventore accusamus atque libero amet enim!</p>
                     </div>
                     <div className="col-md-4">
                         <img src="/equipo3.jpg" alt="" className="rounded img-fluid"/>
-                        <h4>Primera Foto</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi adipisci pariatur dolorum architecto culpa inventore accusamus atque libero amet enim!</p>
                     </div>
                 </div>
             </div>
