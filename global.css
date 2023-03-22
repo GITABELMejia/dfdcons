@@ -70,6 +70,12 @@ h3 {
 .navbar-brand span{
     font-weight: 900;
 }
+
+@media(max-width:768px){
+    .navbar-brand{
+        font-size: 1rem;
+    }
+}
 .navbar-expand-lg .navbar-nav .nav-link {
     text-transform: uppercase;
     color: #ffffff;
@@ -188,7 +194,65 @@ h3 {
 
 
 /* CONTACTO */
+
+.contact{
+    background-image: url(/slide2.jpg);
+    height: 10rem;
+    background-size: cover;
+   background-position: center center;
+}
+@media(min-width:768px){
+    .contact{
+        height: 30rem;
+    }
+}
+
+.contact h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%) translateY(-50%) ;
+}
+@media(max-width:765px){
+    .contact h2{
+        text-align: center;
+        color: white;
+        font-size: 34px;
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translateX(-50%) translateY(-240) ;
+    }
+}
+
 .contact-ico{
     font-weight: 900;
 }
 
+
+
+/* iconos de footer */
+.social_icon{
+    color: #ffffff;
+    font-size: 20px;
+}
+.social_icon:hover{
+    color: #ffbb00;
+}
+
+.contact_icon{
+    color: #ffbb00;
+    font-size: 30px;
+}
+
+.descip{
+    text-decoration: none;
+    color: #e08709 ;
+    font-size: 15;
+}
+.descip:hover{
+    color: crimson;
+}

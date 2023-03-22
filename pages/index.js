@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import 'animate.css'
 import { skills, experiences, projects } from "../profile";
 import Link from "next/link"
 const Index = () => (
@@ -41,17 +42,17 @@ const Index = () => (
         <section className="container sobre-nosotros mt-5">
             <h2 className="text-center mb-5">Más sobre Nosotros</h2>
             <div className="row">
-                <div className="col-sm-4 text-center">
+                <div className="col-sm-4 text-center animate__animated animate__zoomIn">
                     <img src="/icono_seguridad.jpg" alt="icono_Seguridad" className="img-fliud mb-4" />
                     <h3 className="mb-3 text-uppercase">Seguridad</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique iure sit ad, deleniti eaque quod.</p>
                 </div>
-                <div className="col-sm-4 text-center">
+                <div className="col-sm-4 text-center animate__animated animate__zoomIn">
                     <img src="/icono_precio.jpg" alt="icono_Seguridad" className="img-fliud mb-4" />
                     <h3 className="mb-3 text-uppercase">El Mejor Precio</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique iure sit ad, deleniti eaque quod.</p>
                 </div>
-                <div className="col-sm-4 text-center">
+                <div className="col-sm-4 text-center animate__animated animate__zoomIn">
                     <img src="/icono_disponible.jpg" alt="icono_Seguridad" className="img-fliud mb-4" />
                     <h3 className="mb-3 text-uppercase">Disponibilidad Inmediata</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique iure sit ad, deleniti eaque quod.</p>
@@ -147,7 +148,7 @@ const Index = () => (
                     <div className="col">
                         <h3>Encuentra la casa de tu sueños</h3>
                         <p>Llena el Formulario de contacto y un asesor se pondrá en contacto a la brevedad.</p>
-                        <a href="#" className="btn btn-warning text-uppercase py-2 mt-4" > Contáctanos</a>
+                        <a href="/contact" className="btn btn-warning text-uppercase py-2 mt-4" > Contáctanos</a>
                     </div>
                 </div>
             </div>

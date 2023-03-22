@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import 'animate.css'
 import { skills, experiences, projects } from "../profile";
 import Link from "next/link"
 const About = () => (
@@ -18,11 +19,11 @@ const About = () => (
                 </div>
                 <div className="row text-center">
                     <h2 className="mb-4">SOCIOS FUNDADORES</h2>
-                    <div className="col-md-6 mb-5">
+                    <div className="col-md-6 mb-5 animate__animated animate__backInLeft">
                         <img src="/socio_fundador2.jpg" alt="" className="rounded-circle img-fluid" />
                         <h4>Primer Fundador</h4>
                     </div>
-                    <div className="col-md-6 mb-5">
+                    <div className="col-md-6 mb-5 animate__animated animate__backInRight">
                         <img src="/socio_fundador1.jpg" alt="" className="rounded-circle img-fluid" />
                         <h4>Segundo fundador</h4>
                     </div>
