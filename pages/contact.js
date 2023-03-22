@@ -27,7 +27,7 @@ const Contact = () => (
                             <div className="card-header">
                                 <h3 className="">Send a Message</h3>
                             </div>
-                            <p>Un</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, facere.</p>
                             <div className="card-body">
                                 <form action="">
                                     <div className="mb-3">
